@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('images/usersBackground.jpg');
+    background-repeat:no-repeat ;
+    background-size: cover;
+    height: 100vh;
+  
+}
+#first_container{
+   border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+#back_div{
+    display: flex;
+    justify-content: center;
+    
+    padding: 2%;
+   border-radius: 20px;
+    height: 20%;
+}
+#back_button{
+
+    padding: 1%;
+    border-radius: 15px;
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    
+    
+}
+#infocontainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#info_container{
+    
+   background-color: whitesmoke;
+    height: 600px;
+    border-radius: 20px ;
+    border-top: 35px solid #4bcba1;
+    padding: 1%;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+
+}
+#image_container{
+  
+    background-size: cover;
+    padding: 2%;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='500' height='200' preserveAspectRatio='none' viewBox='0 0 500 200'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1055%26quot%3b)' fill='none'%3e%3crect width='500' height='200' x='0' y='0' fill='rgba(75%2c 203%2c 161%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c128.707C23.68%2c128.279%2c38.115%2c102.701%2c59.608%2c92.752C85.967%2c80.551%2c122.121%2c86.838%2c139.966%2c63.92C157.876%2c40.919%2c157.12%2c6.489%2c148.449%2c-21.344C140.243%2c-47.684%2c113.104%2c-61.51%2c94.535%2c-81.915C76.528%2c-101.702%2c67.18%2c-134.191%2c40.952%2c-139.471C14.51%2c-144.795%2c-5.367%2c-113.955%2c-31.503%2c-107.289C-59.158%2c-100.236%2c-95.844%2c-120.802%2c-115.044%2c-99.686C-134.105%2c-78.722%2c-114.66%2c-44.739%2c-114.134%2c-16.41C-113.706%2c6.617%2c-122.158%2c30.472%2c-112.24%2c51.258C-102.377%2c71.93%2c-79.862%2c81.925%2c-61.01%2c94.933C-41.483%2c108.407%2c-23.721%2c129.136%2c0%2c128.707' fill='%2332ad84'%3e%3c/path%3e%3cpath d='M500 357.081C531.957 353.197 567.136 364.004 593.999 346.265 620.7909999999999 328.573 623.781 291.554 640.623 264.22 660.5509999999999 231.877 699.899 208.88400000000001 702.017 170.954 704.1800000000001 132.213 681.107 93.816 651.542 68.68799999999999 623.436 44.80000000000001 583.94 42.29599999999999 547.172 39.34800000000001 516.192 36.864000000000004 487.281 46.71700000000001 456.861 53.08099999999999 423.454 60.06999999999999 386.179 56.84800000000001 359.831 78.542 331.975 101.478 319.497 137.724 311.363 172.878 302.693 210.35 297.647 250.18099999999998 311.845 285.927 326.36400000000003 322.48199999999997 353.283 357.13599999999997 390.073 371.049 425.336 384.384 462.575 361.629 500 357.081' fill='%2376d8b8'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1055'%3e%3crect width='500' height='200' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    display: flex;
+    justify-content: center;
+    padding-left: 5%;
+    align-items: center;
+}
+#image_background{
+
+    background-color: white;
+    border-radius: 50%;
+    width: 200px;
+    transition: transform 0.3s;
+}
+
+#image_background:hover{
+    transform: scale(0.9);
+}
+#image{
+    height: 200px;
+    height: 200px;
+
+}
+#name_container{
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#nombre{
+    color: rgba(0, 0, 0, 0.719);
+    margin-left: 3%;
+}
+#back_btn{
+    background-color: rgba(255, 255, 255, 0.774);
+    padding: 5px;
+    color: #4bcba1;
+    width: 100px;
+    text-align: center;
+
+    border-radius: 20px;
+    transition: transform 0.3s;
+}
+#back_btn:hover{
+    background-color: white;
+    transform: scale(1.1);
+}
+
+.container_inputs{
+    margin-top: 5%;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   padding: 2%;
+}
+
+#dni{
+    margin-left: 3%;
+    color: rgba(0, 0, 0, 0.719);
+
+}
+#email{
+    margin-left: 3%;
+    color: rgba(0, 0, 0, 0.719);
+}
+.icons{
+    height: 50px;
+    transition: transform 0.3s;
+}
+.icons:hover{
+    transform: scale(1.2);
+}
+#sesion_dib{
+  
+
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5%;
+    width: 100%;
+}
+
+#sesion_dib a{
+    color: #4bcba1;
+    font-size: 20px;
+    margin-right: 5%;
+}
+@media only screen and (max-width: 702px) {
+    #info_container{
+        width: 380px;
+    }
+    #dni{
+        margin-left: 3%;
+        font-size: 16px;
+    }
+    #email{
+        font-size: 16px;
+        margin-left: 3%;
+    }
+    .icons{
+        height: 40px;
+    }
+}
+
+@media only screen and (max-width: 402px) {
+    #info_container{
+        width: 300px;
+    }
+}
